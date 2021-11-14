@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*, *:before, *:after{
+   box-sizing: border-box;
+}
+
+body{
+  background: #f7fafb;
+  height: 100vh;
+}
+
+header{
+  background: white;
+  padding: 1.2rem 0;
+  margin-bottom: 1rem;
+}
+
+.center-1{
+   width: 85%;
+  margin: 0 auto;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d778d;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #202020;
+}
+
+button{
+  background: #001c0e;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero{
+  padding: 1.5rem 0;
+}
+
+.hero-text{
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.hero-text a {
+  color: #3e5449;
+  border-bottom: 1px solid #3e5449;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  margin: 1rem 0;
+}
+
+.hero-img{
+  padding: 1rem 1.5rem;
+  background-image:url("https://images.unsplash.com/photo-1509856508843-3488c191938f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: 5px;
+}
+
+.img-below{
+  bottom: 2rem;
+  right: 2rem;
+  background: #000;
+  color: white;
+  font-size: 10px;
+  border-radius: 5px;
+   display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.img-wrapper{
+  background: white;
+  margin: 0 0.6rem 0 0.2rem;
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 3px;
+}
+
+.small-img{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+
+
+
+.icon{
+  width: 0.7rem;
+  margin-left: 1rem;
+}
+
+section{
+  margin: 2rem 0;
+}
+
+.center-2{
+   width: 75%;
+  margin: 2rem auto;
+}
+
+.sub-sec{
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.sub-sec h1, .comment {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sub-sec p {
+  max-width: 650px;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+}
+
+.sub-sec-2{
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon2{
+ height: 48px; 
+}
+
+.sub-secs-2{
+  margin:0 1.5rem ;
+  padding: 1rem;
+}
+
+.sub-secs-2 > p{
+  line-height: 1.3rem;
+}
+
+iframe{
+  height: 450px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+.testimonials-img{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  margin:1rem 0 ;
+}
+
+.testimonial-img{
+ position: relative;
+
+}
+
+.testimonial-img > img {
+  width: 95%;
+  height: 78%;
+  border-radius: 5px;
+}
+
+.testimg:before{
+ content: '';
+   height: 78%;
+  width: 95%;
+  opacity: 0.6;
+  border-radius: 5px;
+  background: black;
+  position: absolute;
+}
+
+.testimg:after{
+  content: url('https://img.icons8.com/ios-filled/50/ffffff/play--v1.png');
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 5rem;
+  right: 10rem;
+}
+
+
+
+.testimonial-name{
+ font-weight: 600;
+  margin:0.5rem 0;
+}
+
+.test-wrapper{
+  background: white;
+  display: flex;
+ flex-direction: column;
+  margin-right: 1rem ;
+  border-radius: 5px 5px 0 0;
+}
+
+.test-wrapper > p, .test-wrapper > span {
+  padding: 0 1rem;
+}
+
+.test-wrapper > p{
+  margin-top: 1.5rem;
+}
+
+.test-wrapper > span{
+  padding-bottom: 1rem;
+  color: grey;
+}
+
+.test-wrapper > p:nth-child(2), .test-wrapper > span{
+  font-size: 0.8rem;
+}
+
+.test-wrapper img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.explore{
+  background: url('https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVpbGRpbmclMjBhcmNoaXRlY3R1cmV8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+height: 600px;
+background-repeat: no-repeat;
+ background-size: cover;
+display: flex;  
+justify-content: center;
+  align-items: flex-end;
+}
+
+.explore-below{
+  background: white;
+  border-radius: 5px;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.explore-below img {
+  height: 16px;
+  margin-right: 0.5rem;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.card{
+  background: white;
+  padding: 1.7rem;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.card-head{
+  font-size: 1.1rem;
+}
+
+.price{
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0.5rem 1.5rem 1rem 0;
+}
+
+.card li{
+  margin-bottom: 1rem;
+}
+
+.card button{
+  background: #2d778d;
+  width: 100%;
+}
+
+.card .btn-2{
+  background: white;
+  border: 1px solid #2d778d;
+  color: #2d778d;
+  margin-top: 0.3rem;
+}
+
+.month{
+  width: 50%;
+  background: #f7fafb;
+  margin: 1rem 0;
+  border: 1px solid #f1f6f7;
+  border-radius: 5px;
+}
+
+select{
+  border: none;
+  background: 0;
+  padding: 0.7rem;
+  width: 90%;
+}
+
+.amp{
+  font-family: ubuntu;
+  font-weight: 400;
+}
+
+footer{
+  height: 80vh;
+  display: grid;
+  place-items: center;   
+  background: #000d07;
+}
+
+.footer{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p{
+  font-size: 12px;
+  line-height: 1.5rem;
+  max-width: 250px;
+}
+
+.footer-comment{
+  margin: 0;
+  text-align: left;
+}
+
+.input{
+  border-radius: 5px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem ;
+}
+
+input{
+  border: none;
+  outline: none;
+  margin: 1rem;
+}
+
+.input ::placeholder{
+   color: #000d07;
+}
+
+.footer-btn{
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+
+.arr, .pp{
+  font-size: 12px;
+}
+
+.footer h3{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-rows: 2fr 2fr auto;
+}
